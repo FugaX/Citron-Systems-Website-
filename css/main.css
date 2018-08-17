@@ -13,6 +13,43 @@ body {
 
 
   }
+  header{
+
+    background: #55d6aa;
+
+  }
+  .container {
+
+    width: 80%;
+    margin: 0 auto; 
+
+  }
+  header {
+
+
+    background: #55d6aa
+
+
+  }
+  header::after {
+
+    content: '';
+    display: table;
+    clear: both; 
+  }
+
+    .logo {
+
+    float : left; 
+
+
+    }
+    nav {
+
+
+    float: right;
+
+    }
   @media (min-width: 992px) {
     body {
       padding-top: 56px;
